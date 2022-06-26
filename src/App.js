@@ -1,4 +1,5 @@
 import './App.css';
+import React  from 'react';
 import Header from './components/Header';
 import Contact from './components/Contact';
 // Uncomment untuk memuat daftar kontak
@@ -13,7 +14,12 @@ const App = () => {
 			{/* {contacts.map((contact, index) => {
 				return <Contact key={index} data={contact} />;
 			})} */}
-      <Contact data={contacts[0]}/>+<Contact data={contacts[1]}/>+<Contact data={contacts[2]}/>+<Contact data={contacts[3]}/>+<Contact data={contacts[4]}/>+<Contact data={contacts[5]}/>
+      <Contact data={contacts[0]}/>
+      <Contact data={contacts[1]}/>
+      <Contact data={contacts[2]}/>
+      <Contact data={contacts[3]}/>
+      <Contact data={contacts[4]}/>
+      <Contact data={contacts[5]}/>
 		</div>
 	);
 }

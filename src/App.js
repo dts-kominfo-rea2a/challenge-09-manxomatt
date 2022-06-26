@@ -10,9 +10,10 @@ const App = () => {
 		<div className="App">
 			<Header />
 
-			{contacts.map((contact, index) => {
+			{/* {contacts.map((contact, index) => {
 				return <Contact key={index} data={contact} />;
-			})}
+			})} */}
+      <Contact data={contacts[0]}/>+<Contact data={contacts[1]}/>+<Contact data={contacts[2]}/>+<Contact data={contacts[3]}/>+<Contact data={contacts[4]}/>
 		</div>
 	);
 }
